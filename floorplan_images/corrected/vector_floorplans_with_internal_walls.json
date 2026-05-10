@@ -1,0 +1,1078 @@
+{
+  "corridor": {
+    "scenario": "corridor",
+    "outer_box": {
+      "x_min": -0.5,
+      "x_max": 56.5,
+      "y_min": -0.5,
+      "y_max": 9.5
+    },
+    "walls": [
+      {
+        "type": "h",
+        "y": -0.5,
+        "x0": -0.5,
+        "x1": 56.5,
+        "tag": "corridor_outer_bottom",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 9.5,
+        "x0": -0.5,
+        "x1": 56.5,
+        "tag": "corridor_outer_top",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -0.5,
+        "y0": -0.5,
+        "y1": 9.5,
+        "tag": "corridor_outer_left",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 56.5,
+        "y0": -0.5,
+        "y1": 9.5,
+        "tag": "corridor_outer_right",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 1.5,
+        "x0": 0.0,
+        "x1": 11.0,
+        "tag": "corridor_internal_wall_001",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 11.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_002",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 18.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_003",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 22.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_004",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 28.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_005",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 32.0,
+        "y0": 3.0,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_006",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 36.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_007",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 42.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_008",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 44.5,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_009",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 54.0,
+        "y0": 1.5,
+        "y1": 8.0,
+        "tag": "corridor_internal_wall_010",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 8.0,
+        "x0": 18.0,
+        "x1": 22.0,
+        "tag": "corridor_internal_wall_011",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 1.5,
+        "x0": 22.0,
+        "x1": 28.0,
+        "tag": "corridor_internal_wall_012",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 7.0,
+        "x0": 22.0,
+        "x1": 28.0,
+        "tag": "corridor_internal_wall_013",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 3.0,
+        "x0": 28.0,
+        "x1": 36.0,
+        "tag": "corridor_internal_wall_0114",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 1.5,
+        "x0": 36.0,
+        "x1": 42.0,
+        "tag": "corridor_internal_wall_015",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 1.5,
+        "x0": 44.5,
+        "x1": 54.0,
+        "tag": "corridor_internal_wall_016",
+        "role": "internal"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Initial corridor map. Outer box is data-derived until exact external dimensions are inserted. Internal walls were added manually in appended coordinate-based editing cells. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'. Corridor outer boundary is stored explicitly as external vector walls. Internal walls are stored separately with role='internal'.",
+    "draw_outer_box": false
+  },
+  "office": {
+    "scenario": "office",
+    "outer_box": {
+      "x_min": -2.5,
+      "x_max": 5.5,
+      "y_min": -4.5,
+      "y_max": 4.5
+    },
+    "walls": [
+      {
+        "type": "h",
+        "y": -4.5,
+        "x0": -2.5,
+        "x1": 5.5,
+        "tag": "office_outer_bottom",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 4.5,
+        "x0": -2.5,
+        "x1": 5.5,
+        "tag": "office_outer_top",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -2.5,
+        "y0": -4.5,
+        "y1": 4.5,
+        "tag": "office_outer_left",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 5.5,
+        "y0": -4.5,
+        "y1": 4.5,
+        "tag": "office_outer_right",
+        "role": "external"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Initial office map. Origin is allowed to be inside the room coordinate frame.",
+    "draw_outer_box": false
+  },
+  "office2": {
+    "scenario": "office2",
+    "outer_box": {
+      "x_min": -0.5,
+      "x_max": 27.5,
+      "y_min": -1.5,
+      "y_max": 7.5
+    },
+    "walls": [
+      {
+        "type": "h",
+        "y": -1.5,
+        "x0": -0.5,
+        "x1": 27.5,
+        "tag": "office2_outer_bottom",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 7.5,
+        "x0": -0.5,
+        "x1": 27.5,
+        "tag": "office2_outer_top",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -0.5,
+        "y0": -1.5,
+        "y1": 7.5,
+        "tag": "office2_outer_left",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 27.5,
+        "y0": -1.5,
+        "y1": 7.5,
+        "tag": "office2_outer_right",
+        "role": "external"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Initial office2 map. Internal partitions should be edited using known wall spacing.",
+    "draw_outer_box": false
+  },
+  "apartment": {
+    "scenario": "apartment",
+    "outer_box": {
+      "x_min": -1.0,
+      "x_max": 19.0,
+      "y_min": -2.0,
+      "y_max": 13.3
+    },
+    "walls": [
+      {
+        "type": "segment",
+        "x0": 15.5,
+        "y0": -1.5,
+        "x1": -0.5,
+        "y1": -1.5,
+        "tag": "apartment_union_outer_1",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": -0.5,
+        "y0": -1.5,
+        "x1": -0.5,
+        "y1": 7.5,
+        "tag": "apartment_union_outer_2",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": -0.5,
+        "y0": 7.5,
+        "x1": 5.5,
+        "y1": 7.5,
+        "tag": "apartment_union_outer_3",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": 5.5,
+        "y0": 7.5,
+        "x1": 5.5,
+        "y1": 12.75,
+        "tag": "apartment_union_outer_4",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": 5.5,
+        "y0": 12.75,
+        "x1": 19.0,
+        "y1": 12.75,
+        "tag": "apartment_union_outer_5",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": 19.0,
+        "y0": 12.75,
+        "x1": 19.0,
+        "y1": 4.5,
+        "tag": "apartment_union_outer_6",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": 19.0,
+        "y0": 4.5,
+        "x1": 15.5,
+        "y1": 4.5,
+        "tag": "apartment_union_outer_7",
+        "role": "external"
+      },
+      {
+        "type": "segment",
+        "x0": 15.5,
+        "y0": 4.5,
+        "x1": 15.5,
+        "y1": -1.5,
+        "tag": "apartment_union_outer_8",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 3.8,
+        "y0": 2.2,
+        "y1": 7.5,
+        "tag": "apartment_internal_wall_001",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 2.2,
+        "x0": -0.5,
+        "x1": 3.8,
+        "tag": "apartment_internal_wall_002",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 4.5,
+        "x0": 9.0,
+        "x1": 15.5,
+        "tag": "apartment_internal_wall_003",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 9.8,
+        "y0": 0.2,
+        "y1": 4.5,
+        "tag": "apartment_internal_wall_004",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 0.2,
+        "x0": 5.2,
+        "x1": 9.8,
+        "tag": "apartment_internal_wall_005",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 5.8,
+        "x0": 5.2,
+        "x1": 9.0,
+        "tag": "apartment_internal_wall_006",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 5.2,
+        "y0": 0.2,
+        "y1": 5.8,
+        "tag": "apartment_internal_wall_007",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 9.0,
+        "y0": 0.2,
+        "y1": 5.8,
+        "tag": "apartment_internal_wall_008",
+        "role": "internal"
+      }
+    ],
+    "draw_outer_box": false,
+    "confidence": "medium",
+    "notes": "External wall only. The apartment boundary is modeled as the union of two overlapping rectangles. Rectangle edges are placed slightly outside the RP grid to avoid wall/RP overlap. No internal walls are drawn. Internal walls were added manually in appended coordinate-based editing cells. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'. Apartment external boundary is preserved as explicit external vector walls. Internal walls are stored separately with role='internal'."
+  },
+  "lecture_theatre": {
+    "scenario": "lecture_theatre",
+    "outer_box": {
+      "x_min": -0.5,
+      "x_max": 19.5,
+      "y_min": -0.5,
+      "y_max": 23.5
+    },
+    "walls": [
+      {
+        "type": "h",
+        "y": -0.5,
+        "x0": -0.5,
+        "x1": 19.5,
+        "tag": "lecture_theatre_outer_bottom",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 23.5,
+        "x0": -0.5,
+        "x1": 19.5,
+        "tag": "lecture_theatre_outer_top",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -0.5,
+        "y0": -0.5,
+        "y1": 23.5,
+        "tag": "lecture_theatre_outer_left",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 19.5,
+        "y0": -0.5,
+        "y1": 23.5,
+        "tag": "lecture_theatre_outer_right",
+        "role": "external"
+      }
+    ],
+    "confidence": "medium",
+    "notes": "Initial lecture theatre map. Coarse open-area representation unless internal walls are known.",
+    "draw_outer_box": false
+  },
+  "building": {
+    "scenario": "building",
+    "outer_box": {
+      "x_min": -7.0,
+      "x_max": 133.0,
+      "y_min": -2.2,
+      "y_max": 20.0
+    },
+    "walls": [
+      {
+        "type": "h",
+        "y": -2.0,
+        "x0": -9.0,
+        "x1": 135.0,
+        "tag": "building_outer_bottom",
+        "role": "external"
+      },
+      {
+        "type": "h",
+        "y": 20.0,
+        "x0": -9.0,
+        "x1": 135.0,
+        "tag": "building_outer_top",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -9.0,
+        "y0": -2.0,
+        "y1": 20.0,
+        "tag": "building_outer_left",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": 135.0,
+        "y0": -2.0,
+        "y1": 20.0,
+        "tag": "building_outer_right",
+        "role": "external"
+      },
+      {
+        "type": "v",
+        "x": -0.5,
+        "y0": -2.0,
+        "y1": 20.0,
+        "tag": "building_internal_wall_001",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.0,
+        "x0": -0.5,
+        "x1": -9.0,
+        "tag": "building_internal_wall_002",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 16.5,
+        "x0": -0.5,
+        "x1": 7.5,
+        "tag": "building_internal_wall_003",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 3.5,
+        "y0": 16.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_004",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 7.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_005",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 7.5,
+        "x1": 16.5,
+        "tag": "building_internal_wall_006",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 16.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_007",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 14.5,
+        "x0": 16.5,
+        "x1": 29.5,
+        "tag": "building_internal_wall_008",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 29.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_009",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 29.5,
+        "x1": 39.5,
+        "tag": "building_internal_wall_010",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 39.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_011",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 15.5,
+        "x0": 39.5,
+        "x1": 93.5,
+        "tag": "building_internal_wall_012",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 93.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_013",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 93.5,
+        "x1": 103.5,
+        "tag": "building_internal_wall_014",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 103.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_015",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 39.5,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_001",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 44.5,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_002",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 49.4,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_003",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 54.3,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_004",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 59.2,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_005",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 64.1,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_006",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 68.99,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_007",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 73.9,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_008",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 78.8,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_009",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 83.7,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_010",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 88.6,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_top_room_partition_011",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 14.5,
+        "x0": 103.5,
+        "x1": 110.5,
+        "tag": "building_internal_wall_016",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 110.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_017",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 110.5,
+        "x1": 117.5,
+        "tag": "building_internal_wall_018",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 117.5,
+        "y0": 13.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_019",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 15.5,
+        "x0": 117.5,
+        "x1": 127.0,
+        "tag": "building_internal_wall_020",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 122.0,
+        "y0": 15.5,
+        "y1": 20.0,
+        "tag": "building_internal_wall_021",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 127.0,
+        "y0": 5.0,
+        "y1": 20.0,
+        "tag": "building_internal_wall_022",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 119.5,
+        "y0": -2.0,
+        "y1": 5.0,
+        "tag": "building_internal_wall_023",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 125.5,
+        "y0": -2.0,
+        "y1": 5.0,
+        "tag": "building_internal_wall_024",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 5.0,
+        "x0": 114.0,
+        "x1": 127.0,
+        "tag": "building_internal_wall_025",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 114.0,
+        "y0": -2.0,
+        "y1": 10.5,
+        "tag": "building_internal_wall_026",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 10.5,
+        "x0": 91.5,
+        "x1": 117.5,
+        "tag": "building_internal_wall_027",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 91.5,
+        "y0": 10.5,
+        "y1": 4.5,
+        "tag": "building_internal_wall_028",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 4.5,
+        "x0": 36.5,
+        "x1": 91.5,
+        "tag": "building_internal_wall_029",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 5.5,
+        "y0": -2.0,
+        "y1": 10.5,
+        "tag": "building_internal_wall_030",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 10.5,
+        "x0": 5.5,
+        "x1": 36.5,
+        "tag": "building_internal_wall_031",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 36.5,
+        "y0": 4.5,
+        "y1": 10.5,
+        "tag": "building_internal_wall_032",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 82.0,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_001",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 87.5714285,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_002",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 43.0,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_003",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 76.4285715,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_004",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 70.85714300000001,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_005",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 65.2857145,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_006",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 59.714286,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_007",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 54.142857500000005,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_008",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 48.571429,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_009",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 43.0000005,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_010",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 37.428572,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_lower_room_partition_011",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 27.0,
+        "y0": 3.0,
+        "y1": 10.5,
+        "tag": "building_internal_wall_033",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 10.75,
+        "x0": 29.5,
+        "x1": 42.0,
+        "tag": "building_internal_wall_034",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 3.0,
+        "x0": 5.5,
+        "x1": 37.428572,
+        "tag": "building_internal_wall_035",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 21.0,
+        "y0": -2.0,
+        "y1": 10.5,
+        "tag": "building_internal_wall_036",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 16.5,
+        "y0": 3.0,
+        "y1": 10.5,
+        "tag": "building_internal_wall_037",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 4.5,
+        "x0": 91.5,
+        "x1": 107.0,
+        "tag": "building_internal_wall_038",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 107.0,
+        "y0": 4.5,
+        "y1": 10.5,
+        "tag": "building_internal_wall_039",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 105.0,
+        "y0": -2.0,
+        "y1": 4.5,
+        "tag": "building_internal_wall_040",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 83.5,
+        "x1": 89.5,
+        "tag": "building_inner_room_001_top",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 6.5,
+        "x0": 83.5,
+        "x1": 89.5,
+        "tag": "building_inner_room_001_bottom",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 83.5,
+        "y0": 6.5,
+        "y1": 13.5,
+        "tag": "building_inner_room_001_left",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 89.5,
+        "y0": 6.5,
+        "y1": 13.5,
+        "tag": "building_inner_room_001_right",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 6.5,
+        "x0": 54.0,
+        "x1": 65.5,
+        "tag": "building_inner_room_002_bottom",
+        "role": "internal"
+      },
+      {
+        "type": "h",
+        "y": 13.5,
+        "x0": 54.0,
+        "x1": 65.5,
+        "tag": "building_inner_room_002_top",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 54.0,
+        "y0": 6.5,
+        "y1": 13.5,
+        "tag": "building_inner_room_002_left",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 65.5,
+        "y0": 6.5,
+        "y1": 13.5,
+        "tag": "building_inner_room_002_right",
+        "role": "internal"
+      },
+      {
+        "type": "v",
+        "x": 102.0,
+        "y0": 4.5,
+        "y1": 10.5,
+        "tag": "building_internal_wall_041",
+        "role": "internal"
+      }
+    ],
+    "confidence": "low",
+    "notes": "Initial building map. Start coarse. Add only major structural walls first. Internal walls were added manually in appended coordinate-based editing cells. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary was manually overridden using explicit vector wall segments. Building external boundary and internal wall layout were manually overridden using explicit vector wall segments with separated external/internal roles. Building external boundary and internal wall layout were manually overridden using explicit vector wall segments with separated external/internal roles.",
+    "draw_outer_box": false
+  }
+}
