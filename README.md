@@ -1,7 +1,6 @@
-# aptwin_wifi_rss_rtt
-Machine/deep learning AP-link digital twin for Wi-Fi RSS/RTT indoor positioning using geometry, floor-plan features, and multi-scenario evaluation.
-
 # AP Digital Twin for Wi-Fi RTT/RSS Indoor Positioning
+
+Machine/deep learning AP-link digital twin for Wi-Fi RSS/RTT indoor positioning using geometry, floor-plan features, and multi-scenario evaluation.
 
 This repository contains the cleaned, standalone AP-link digital twin pipeline prepared from the IPIN 2026 six-environment notebook.
 
