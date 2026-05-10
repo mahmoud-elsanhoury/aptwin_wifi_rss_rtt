@@ -1,0 +1,14 @@
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+xgboost
+torch
+joblib
+PyYAML
+shapely
+Pillow
+tqdm
+# Optional for GraphSAGE GNN:
+# torch-geometric
